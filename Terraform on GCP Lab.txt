@@ -1,0 +1,16 @@
+Terraform on GCP Lab
+
+Using terreaform I created a local text file and set up a VPC in GCP
+
+how this was done
+1. create new repo- made a new GitHub repo just for my homework assiments. connect it to my VSCode and pushed it online.
+2. provider config - using the terraform registry I was able to find the latest Google provier code and pinned it.
+3. vpc - in the terraform registry I was able to find the google_compute_network resource. Set my subnetworks to true so google controlled it automatically. 
+4. local file resource- created a local_file resource to make a plain text file stating my favorite food of padthai.
+5. output - added an output block to show the VPC name once terraform apply was performed.
+
+resources used
+Terraform Google provider: https://registry.terraform.io/providers/hashicorp/google/latest/docs
+google_compute_network: https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network
+local_file: https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
+

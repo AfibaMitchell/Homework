@@ -51,4 +51,13 @@ ENV/
 Thumbs.db
 .vscode/
 .idea/
-*.swp
+*.swp 
+tf state files
+terraform.tfstate
+terraform.lock.hcl
+Terraform variable files
+.terraform\providers\registry.terraform.io\hashicorp
+terraform.tfvars
+
+tf variable files, may include sensitive data
+*.tfvars
